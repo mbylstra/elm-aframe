@@ -65,4 +65,4 @@ type_ light =
 -}
 intensity : Float -> Attribute msg
 intensity value =
-    attribute "intensity" <| toString value
+    attribute "intensity" <| String.fromFloat value
